@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21">
+  <g id="Сгруппировать_1" data-name="Сгруппировать 1" transform="translate(-800 -2128)">
+    <text id="_1" data-name="1" transform="translate(808.359 2142.652)" fill="#362927" font-size="12.5" font-family="Gotham-Medium, Gotham" font-weight="500"><tspan x="0" y="0">1</tspan></text>
+    <g id="Эллипс_2" data-name="Эллипс 2" transform="translate(800 2128)" fill="none" stroke="#41302a" stroke-width="2">
+      <ellipse cx="11" cy="10.5" rx="11" ry="10.5" stroke="none"/>
+      <ellipse cx="11" cy="10.5" rx="10" ry="9.5" fill="none"/>
+    </g>
+  </g>
+</svg>

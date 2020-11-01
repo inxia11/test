@@ -1,0 +1,727 @@
+/* основные стили */
+* {
+    font-family: 'Gotham';
+    font-size: 10px;
+    font-weight: bold;
+}
+
+header {
+    min-height: 650px;
+    padding-top: 30px;
+}
+
+section {
+    min-height: 500px;
+    width: 100%;
+}
+
+button:focus div:focus input:focus textarea:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    transition: all 0.4s ease;
+}
+
+
+/* меню */
+
+.menu {
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+
+.logo {
+    height: 70px;
+}
+
+.menuTitle {
+    display: flex;
+    list-style: none;
+}
+
+.menuTitleItem {
+    margin: 0 40px;
+}
+
+.menuTitleItem > a {
+    color: #2A4F8B;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+/* стили слайдера */
+
+
+.headerSlider{
+    display: flex;
+    padding: 0 20%;
+    align-items: center;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+
+.sliderTextWrap {
+    width: 40%;
+    
+}
+
+.cake {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 50px;
+    color: #2A4F8B;
+}
+
+.sliderTextContent {
+    font-size: 13px;
+    color: #2A4F8B;
+}
+
+.sliderOrder {
+    margin-top: 30px;
+    background-color: #365E9C;
+    color: white;
+    font-weight: normal;
+    border:  none;
+    border-radius: 30px;
+    width: 120px;
+    height: 35px;
+    box-shadow: 0px 0px 60px rgba(29, 66, 136, 0.5)
+}
+
+.sliderOrder:hover {
+    background-color: #2ba5ec;
+}
+
+.imageWrap {
+    display: flex;
+    margin-left: 70px;
+}
+
+.sliderImage > img {
+    width: 500px;
+    filter: drop-shadow(0px 50px 100px rgba(29, 66, 136, 0.5));
+    
+
+}
+
+.linksCake > i {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #365E9C;
+}
+
+
+
+.iconCake {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+/* венчик */
+
+.imageVenc {
+    position: absolute;
+    top: 450px;
+    left: -20px;
+}
+
+.imageVenc > img {
+    height: 350px;
+    width: 350px;
+    filter: drop-shadow(0px 30px 100px rgba(6, 27, 71, 0.5));
+    
+}
+
+.imagePartCake {
+    position: absolute;
+    top: 550px;
+    right: 100px;
+}
+
+.imagePartCake > img {
+    height: 250px;
+    width: 300px;
+    filter: drop-shadow(0px 30px 100px rgba(6, 27, 71, 0.5));
+}
+
+
+/* секция */
+
+.order {
+    background-color: #365E9C;
+    box-shadow: 0px 20px 60px rgba(29, 66, 136, 0.5);
+    
+}
+
+.orderText {
+    margin: 0 20%;
+    padding-top: 50px;
+}
+
+.orderTitle {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+}
+
+.orderSubtitle {
+    font-weight: medium;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.orderWay {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.way {
+    width: 210px;
+
+}
+
+.titleWay {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+}
+
+.textWay {
+    color: white;
+    margin-top: 10px;
+    line-height: 2.5;
+    font-weight: 500;
+}
+
+.buttonWay {
+    margin-top: 50px;
+    background-color: #A77972;
+    color: #362927;
+    font-weight: normal;
+    border:  none;
+    border-radius: 30px;
+    width: 120px;
+    height: 35px;
+}
+
+.buttonWay:hover {
+    background-color: #ffc1b7;
+}
+
+/*  стили для ассортимента */
+
+.assort {
+    padding: 10% 20%;
+}
+
+.assortTitle {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 45px;
+    color: #2A4F8B;
+    margin-bottom: 50px;
+}
+
+.sliderFace1  .sliderFace2 .sliderFace3 {
+    margin: 40px auto;
+}
+
+.assortSlider {
+    position: relative;
+}
+
+.assortArrow {
+    position: absolute;
+    top: 40%;
+
+}
+
+.assortArrowPrev {
+    left: -100px;
+}
+
+.assortArrowNext {
+    right: -100px;
+}
+
+.assortArrow > i {
+    font-size: 30px;
+    color: #2A4F8B;
+}
+
+.assortCakeWraper {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.assortCakeImage > img {
+    width: 155px;
+    margin-right: 100px;
+}
+
+.assortCakeContent {
+    margin: auto 0px;
+}
+
+.assortCakeSub {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 21px;
+    color: #365E9C;
+    margin-bottom: 25px;
+}
+
+.assortCakeText {
+    color: #365E9C;
+    line-height: 2.5;
+    margin-bottom: 25px;
+}
+
+.informWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.assortCakePrice {
+    font-size: 13px;
+    color: #365E9C;
+    margin-right: 15px;
+}
+
+.assortCakeWeight {
+    font-size: 8px;
+    color: #365E9C;
+}
+
+.assortCakeBtn {
+    margin-top: 25px;
+    background-color: #365E9C;
+    color: white;
+    font-weight: normal;
+    border:  none;
+    border-radius: 30px;
+    width: 120px;
+    height: 35px;
+}
+
+.assortCakeBtn:hover {
+    background-color: #2ba5ec;
+}
+
+.coffee {
+    position: absolute;
+    right: 40px;
+}
+
+
+.coffee > img {
+    width: 400px;
+    filter: drop-shadow(0px 30px 100px rgba(6, 27, 71, 0.5));
+}
+
+
+/* доставка */
+
+.delivery {
+    background-color: #365E9C;
+    box-shadow: 0px 20px 60px rgba(29, 66, 136, 0.5);
+}
+
+
+
+.deliveryContent {
+    margin-right: 60px;
+}
+
+.deliveryWrapper {
+    display: flex;
+    margin: auto;
+    padding-top: 90px;
+    width: 60%;
+}
+
+.deliveryTitle {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.deliveryText  {
+    color: white;
+    line-height: 2.5;
+    margin-bottom: 40px;
+}
+
+.deliverySub {
+    color: #362927;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+ul {
+    padding-left: 0px;
+    color: #362927;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 2.5;
+}
+
+.deliveryQue {
+    padding-top: 15px;
+}
+
+.queSub {
+    color: #362927;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.queWrap {
+    margin-bottom: 15px;
+}
+
+.nameWrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.queName {
+    color: #362927;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.queText {
+    color: white;
+    line-height: 2.5;
+}
+/* о нас */
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.aboutWrap {
+    display: flex;
+    margin-left: 20%;
+    width: 70%;
+    align-items: center;
+}
+
+.aboutContent {
+    width: 55%;
+    margin-right: 65px;
+}
+
+.aboutTitle {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 45px;
+    color: #2A4F8B;
+    margin-bottom: 40px;
+}
+
+.aboutText {
+    color: #2A4F8B;
+    line-height: 2.5;
+    margin-bottom: 55px;
+}
+
+.aboutPls {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plsBlock {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.plsIcon > img {
+    width: 40px;
+    margin: auto 15px auto 0px;
+}
+
+.plsText {
+    color: #2A4F8B;
+    line-height: 2.5;
+    margin-right: 25px;
+}
+
+.aboutImage > img {
+    width: 350px;
+}
+
+/* отзывы */
+
+.review {
+    background-color: #365E9C;
+    box-shadow: 0px 20px 60px rgba(29, 66, 136, 0.5);
+}
+
+.revTitle {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    margin-left: 20%;
+    padding-top: 60px;
+}
+
+.revSlider {
+    width: 80%;
+    margin: 50px auto 0px auto;
+    display: flex;
+}
+
+.plateWrap {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.revPlate {
+    width: 49%;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.revTextWrap {
+    width: 65%;
+    margin: auto;
+    padding: 40px 0px 40px 0px;
+}
+
+.plateName {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 17px;
+    color: #365E9C;
+}
+
+.plateText {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 10px;
+    color: #365E9C;
+    line-height: 2.5;
+}
+
+.plateGrade {
+    display: flex;
+}
+
+.plateGrade > img {
+    width: 20px;
+    margin: 20px 4px 0px 4px;
+}
+
+.choc {
+    position: absolute;
+    top: 3350px;
+    left: 30px;
+}
+
+.choc > img {
+    width: 350px;
+    filter: drop-shadow(0px 30px 100px rgba(6, 27, 71, 0.5));
+}
+/* контакты */
+
+
+.contactsWrap {
+    width: 60%;
+    margin: auto;
+    padding: 50px 0px 100px 0px;
+    display: flex;
+}
+
+.contactsForm {
+    width: 45%;
+}
+
+.contactsTitle {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 45px;
+    color: #365E9C;
+    margin-top: 40px;
+}
+
+.formLogo > img {
+    margin-top: 20px;
+    width: 45px;
+}
+
+.formSub {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 17px;
+    color: #365E9C;
+    margin-top: 25px;
+}
+
+.formText {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 13px;
+    color: #362927;
+    margin-top: 10px;
+}
+
+.inputWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.inputWrapCnt {
+    width: 45%;
+}
+
+.inputWrapCnt > label {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 10px;
+    color: #365E9C;
+    padding-left: 10px;
+}
+
+.inputWrapCnt > input {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 10px;
+    color: #362927;
+    border-radius: 35px;
+    border-color: #365E9C;
+    border-width: 1px;
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.term {
+    margin-top: 30px;
+}
+
+.formBtn {
+    background-color: #365E9C;
+    color: white;
+    font-weight: normal;
+    border:  none;
+    border-radius: 35px;
+    width: 120px;
+    height: 35px;
+    margin-top: 40px;
+}
+
+.contactsImageWrap {
+    display: flex;
+}
+
+.contactsImage > img {
+    width: 425px;
+    margin-left: 20px;
+}
+
+.socNetIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.socNetIcons > i {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #365E9C;
+}
+
+/* подвал */
+
+
+footer {
+    min-height: 100px;
+    width: 100%;
+    background-color: #365E9C;
+    display: flex;
+    align-items: center;
+}
+
+.footContacts {
+    display: flex;
+    padding-left: 20%;
+    align-items: center;
+}
+
+.footWrap {
+    height: 35px;
+    margin-right: 50px;
+}
+
+.city {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+}
+
+.street {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 10px;
+    color: #362927;
+    margin-top: 10px;
+}
+
+.telNum1 {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+}
+
+.telNum2 {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 10px;
+    color: #362927;
+    margin-top: 10px;
+}
+
+.politics {
+    font-family: 'Gotham Pro Narrow';
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    height: 35px;
+}
